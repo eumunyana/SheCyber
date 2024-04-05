@@ -104,6 +104,7 @@ h2 {
 }
 
 #about-us h2 {
+  text-align: center;
   font-size: 2rem;
   margin-bottom: 20px;
 }
