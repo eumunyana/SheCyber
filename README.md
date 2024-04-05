@@ -18,7 +18,7 @@ Install dependencies: npm install
 Set up Firebase: Follow the instructions in the Firebase documentation to set up a Firebase project and obtain the necessary configuration information.
 Add Firebase configuration: Add the Firebase configuration information to the firebase-config.js file.
 Start the development server: npm start
-Open the website in a web browser: http://localhost:3000
+Open the website in a web browser: https://shecyber.netlify.app/
 Contributing
 We welcome contributions to SheCyber! To contribute, follow these steps:
 
