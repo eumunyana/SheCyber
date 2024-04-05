@@ -1,0 +1,82 @@
+header {
+  background-color: rgb(0, 0, 32);
+  padding: 10px;
+  text-align: left;
+}
+
+.logo {
+  color: #fff;
+  font-size: 3rem;
+  text-decoration: none;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 32);
+  }
+  
+  .sign-in-container,
+  .sign-up-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(0, 0, 32);
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
+  }
+  
+  .header-title {
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .sign-in-form,
+  .sign-up-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    width: 300px;
+  }
+  
+  .sign-in-form input,
+  .sign-up-form input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .sign-in-form button,
+  .sign-up-form button {
+    padding: 10px 20px;
+    background-color: rgb(0, 0, 32);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .sign-in-form button:hover,
+  .sign-up-form button:hover {
+    cursor: pointer;
+    background-color: #000;
+  }
+  
+  .sign-link {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .sign-link:hover {
+    text-decoration: underline;
+  }

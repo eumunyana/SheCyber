@@ -1,0 +1,147 @@
+/* Set the background color for the entire page */
+body {
+    background-color: rgb(0, 0, 32);
+  }
+  
+  /* Style the header container */
+  #header-container {
+    background-color: rgb(0, 0, 32);
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Style the logo */
+  .logo {
+    color: #fff;
+    font-size: 3rem;
+    text-decoration: none;
+  }
+  
+  /* Style the main container */
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+  }
+  
+  /* Style the profile container */
+  #profile-container {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    flex: 1 1 400px;
+    margin-right: 20px;
+    padding: 20px;
+  }
+  
+  /* Style the profile information */
+  .profile-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the profile image */
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  /* Style the profile text */
+  .profile-text {
+    flex: 1;
+  }
+  
+  /* Style the profile name */
+  .profile-name {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the profile bio */
+  .profile-bio {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the profile stats */
+  .profile-stats {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+  }
+  
+  /* Style the post container */
+  #posts-container {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    flex: 1 1 400px;
+    margin-right: 20px;
+    padding: 20px;
+  }
+
+  .log-out-button {
+    background-color: rgb(0, 0, 32);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .log-out-button:hover {
+    background-color: #000;
+  }
+  
+  /* Style the post */
+  .post {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  
+  /* Style the post image */
+  .post-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the post text */
+  .post-text {
+    margin: 0;
+  }
+  
+  /* Style the post title */
+  .post-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the post description */
+  .post-description {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: rgb(0, 0, 32);
+    padding: 10px;
+    text-align: center;
+  color: white;
+  }

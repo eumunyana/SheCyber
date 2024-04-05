@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cybersecurity</title>
+    <script src="shecyber.js"></script>
+    <link rel="stylesheet" href="shecyber.css">
+</head>
+<header id="header-container">
+  <div class="header-content">
+    <h1 id="shecyber-header">SheCyber</h1>
+    <a href="signup.html">
+      <button class="sign-in-button">Sign Up</button>
+    </a>
+    <a href="login.html">
+      <button class="sign-in-button">Log In</button>
+    </a>
+  </div>
+    
+    <script src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.26.0/babel.min.js"></script>
+    <script type="text/babel">
+      const Header = () => {
+        const [isInteractive, setIsInteractive] = React.useState(false);
+  
+        const handleClick = () => {
+          setIsInteractive(!isInteractive);
+        };
+  
+        return (
+          <div class="shecyber-content">
+            <h1 id="shecyber-header" onclick="handleClick">
+            {isInteractive ? "Interactive Mode" : "SheCyber"}
+          </h1>
+          <a href="sign-in-page.html"><button class="sign-in-button">Sign In / Sign Up</button></a>
+          </div>
+        );
+      };
+  
+      ReactDOM.render(<Header />, document.getElementById("header-container"));
+    </script>  
+</header>
+    <body>
+        <main>
+            <section id="home"> <p>Welcome to SheCyber <br>
+                    platform dedicated to empowering women in cybersecurity. Our mission is to provide resources, support, and a community for women to learn and grow in the field of cybersecurity.</p>
+            </section>
+    
+            <section id="about-us">
+              <h2>About Us</h2>
+              <p>
+                SheCyber is a platform dedicated to empowering women in cybersecurity. Our mission is to provide resources, support, and a community for women to learn and grow in the field of cybersecurity.
+              </p>
+              <p>
+                Founded in 2023, SheCyber has quickly become a trusted resource for women in the cybersecurity industry. Our team of experienced professionals is committed to providing high-quality content and support to our members.
+              </p>
+              <p>
+                Whether you're just starting out in your cybersecurity career or you're a seasoned professional, SheCyber has something to offer. Join our community today and start growing your skills and network.
+              </p>
+            </section>
+            
+        </main>
+
+    </body>
+    <footer id="footer">
+        <p>&copy; 2024 SheCyber</p>
+    </footer>
+</html>

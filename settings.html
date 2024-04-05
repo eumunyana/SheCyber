@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SheCyber Settings</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="shecyber-settings.css" />
+  </head>
+  <body>
+    <header id="header-container">
+      <a href="shecyber.html" class="logo">SheCyber</a>
+      <nav>
+        <ul>
+          <li><a href="profile.html">Profile</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="settings.html">Settings</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Settings</h1>
+      <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" value="current_username" />
+        <br />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" value="current_email" />
+        <br />
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" />
+        <br />
+        <button type="submit">Save Changes</button>
+      </form>
+      <div class="mode-toggle">
+        <input type="checkbox" id="mode-toggle" />
+        <label for="mode-toggle" class="switch">
+          <span class="slider round"></span>
+        </label>
+      </div>
+    </main>
+    <script src="shecyber.js"></script>
+  </body>
+</html>
